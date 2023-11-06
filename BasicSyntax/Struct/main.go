@@ -19,4 +19,5 @@ func main() {
 	// 空结构体不占内存
 	var p struct{}
 	fmt.Println(unsafe.Sizeof(p))
+	fmt.Println("test")
 }
