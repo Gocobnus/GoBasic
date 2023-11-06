@@ -13,4 +13,5 @@ func Split(s, sep string) (result []string) {
 	}
 	result = append(result, s)
 	return
+
 }
