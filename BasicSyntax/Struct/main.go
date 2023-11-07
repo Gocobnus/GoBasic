@@ -21,3 +21,7 @@ func main() {
 	fmt.Println(unsafe.Sizeof(p))
 	fmt.Println("test")
 }
+
+// 结构体
+// 值类型既可以调用值接收者的方法，也可以调用指针接收者的方法；
+// 指针类型既可以调用指针接收者的方法，也可以调用值接收者的方法。
